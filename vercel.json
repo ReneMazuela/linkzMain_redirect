@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://linkz.gg",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/assets/:path*",
+      "destination": "https://linkzgg.s3.us-east-1.amazonaws.com/:path*"
+    }
+  ]
+}
